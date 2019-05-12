@@ -1,1 +1,2 @@
-document.getElementById("date").innerHTML= new Date().toString();
+document.getElementById("date").innerHTML= new Date().toLocaleDateString();
+
